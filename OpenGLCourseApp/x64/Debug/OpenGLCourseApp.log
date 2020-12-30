@@ -1,0 +1,47 @@
+﻿Main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function "public: bool __cdecl Window::getShouldClose(void)" (?getShouldClose@Window@@QEAA_NXZ)
+Main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function "public: void __cdecl Window::swapBuffers(void)" (?swapBuffers@Window@@QEAAXXZ)
+Main.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+Main.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewDeleteBuffers
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewDeleteProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewValidateProgram
+Window.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "public: int __cdecl Window::Initialise(void)" (?Initialise@Window@@QEAAHXZ)
+Window.obj : error LNK2019: unresolved external symbol __imp_glewGetErrorString referenced in function "public: int __cdecl Window::Initialise(void)" (?Initialise@Window@@QEAAHXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "public: int __cdecl Window::Initialise(void)" (?Initialise@Window@@QEAAHXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "public: __cdecl Window::~Window(void)" (??1Window@@QEAA@XZ)
+Window.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "public: int __cdecl Window::Initialise(void)" (?Initialise@Window@@QEAAHXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "public: int __cdecl Window::Initialise(void)" (?Initialise@Window@@QEAAHXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwDestroyWindow referenced in function "public: __cdecl Window::~Window(void)" (??1Window@@QEAA@XZ)
+Window.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "private: static void __cdecl Window::handleKeys(struct GLFWwindow *,int,int,int,int)" (?handleKeys@Window@@CAXPEAUGLFWwindow@@HHHH@Z)
+Window.obj : error LNK2019: unresolved external symbol glfwGetFramebufferSize referenced in function "public: int __cdecl Window::Initialise(void)" (?Initialise@Window@@QEAAHXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwSetWindowUserPointer referenced in function "public: int __cdecl Window::Initialise(void)" (?Initialise@Window@@QEAAHXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwGetWindowUserPointer referenced in function "private: static void __cdecl Window::handleKeys(struct GLFWwindow *,int,int,int,int)" (?handleKeys@Window@@CAXPEAUGLFWwindow@@HHHH@Z)
+Window.obj : error LNK2019: unresolved external symbol glfwSetInputMode referenced in function "public: int __cdecl Window::Initialise(void)" (?Initialise@Window@@QEAAHXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function "private: void __cdecl Window::createCallbacks(void)" (?createCallbacks@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwSetCursorPosCallback referenced in function "private: void __cdecl Window::createCallbacks(void)" (?createCallbacks@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "public: int __cdecl Window::Initialise(void)" (?Initialise@Window@@QEAAHXZ)
+Window.obj : error LNK2001: unresolved external symbol __imp_glewExperimental
+C:\Users\Osann\source\repos\OpenGLCourseApp\\..\..\External Libs\GLEW\lib\Release\Win32\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Osann\source\repos\OpenGLCourseApp\\..\..\External Libs\GLFW\lib-vc2019\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Osann\source\repos\OpenGLCourseApp\x64\Debug\OpenGLCourseApp.exe : fatal error LNK1120: 43 unresolved externals
